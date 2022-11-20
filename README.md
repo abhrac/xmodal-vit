@@ -44,11 +44,24 @@ python src/test.py --dataset=DatasetName
 ```
 
 ## Results
-||**Shoe-V2** |**Shoe-V2** | **Chair-V2** | **Chair-V2** | **Sketchy** | **Sketchy**
-|:-|:-:|:-:|:-:|:-:|:-:|:-:|
+| | **Shoe-V2** | **Shoe-V2** | **Chair-V2** | **Chair-V2** |
+|:-|:-:|:-:|:-:|:-:|
 ||**Acc@1**|**Acc@10**|**Acc@1**|**Acc@10**|**Acc@1**|**Acc@10**|
-|**XModalViT**| 45.05 | 90.23|63.48|95.02|56.15|96.86|
+|Yang *et al.*, ICCV '21| 32.33 | 79.63|52.89|94.88|
+|Sain *et al.*, CVPR '21| 36.47 | 81.83|62.86|91.14|
+|Bhunia *et al.*, CVPR '21| 39.10 | 87.50|62.20|90.80|
+|Chowdhury *et al.*, CVPR '22| 39.90 | 82.90|-|-|
+|Bhunia *et al.*, CVPR '22| 43.70 |-|**64.80**|-|
+|**Ours (XModalViT)**| **45.05** | **90.23**|63.48|**95.02**|
 
+| | **Sketchy** | **Sketchy**
+|:-|:-:|:-:|
+||**Acc@1**|**Acc@10**|
+|Human (Sangkloy *et al.*, SIGGRAPH'16)|54.27|-|
+|Pang *et al.*, BMVC'17|50.14|-|
+|Wang *et al.*, PR'20 (S+I)|40.16|92.00|
+|Wang *et al.*, PR'20 (S+I+D)|46.20|96.49|
+|**Ours (XModalViT)**|**56.15**|**96.86**|
 
 ## Citation
 ```
