@@ -1,0 +1,18 @@
+ame: xmodal-vit
+channels:
+  - pytorch
+  - conda-forge
+  - anaconda
+dependencies:
+  - python=3.9
+  - pytorch
+  - torchvision
+  - cudatoolkit=11.3
+  - scikit-image
+  - opencv
+  - einops
+  - tensorboardx
+  - tensorboard
+  - tqdm
+  - timm
+  - pillow=8.3.1
