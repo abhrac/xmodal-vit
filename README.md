@@ -44,10 +44,11 @@ python src/test.py --dataset=DatasetName
 ```
 
 ## Results
-|<td colspan=2, align='center'> **QMUL Shoe-V2**  <td colspan=2, align='center'> **QMUL Chair-V2** <td colspan=2, align='center'> **Sketchy**
+||**Shoe-V2** |**Shoe-V2** | **Chair-V2** | **Chair-V2** | **Sketchy** | **Sketchy**
 |:-|:-:|:-:|:-:|:-:|:-:|:-:|
 ||**Acc@1**|**Acc@10**|**Acc@1**|**Acc@10**|**Acc@1**|**Acc@10**|
 |**XModalViT**| 45.05 | 90.23|63.48|95.02|56.15|96.86|
+
 
 ## Citation
 ```
