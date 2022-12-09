@@ -12,13 +12,13 @@ while bypassing the expensive cross-attention computation at test-time via cross
 This project is implemented using PyTorch. A conda environment with all related dependencies can be created as follows:
 1. Clone the project repository:
 ```shell
-git clone https://github.com/abhrac/relational-proxies.git
-cd relational-proxies
+git clone https://github.com/abhrac/xmodal-vit.git
+cd xmodal-vit
 ```
 2. Create and activate conda environment:
 ```shell
 conda env create -f environment.yml
-conda activate environment.yml
+conda activate xmodal-vit
 ```
 
 ## Experimentation
