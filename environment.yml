@@ -1,4 +1,4 @@
-ame: xmodal-vit
+name: xmodal-vit
 channels:
   - pytorch
   - conda-forge
