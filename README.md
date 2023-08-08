@@ -66,7 +66,7 @@ python src/test.py --dataset=DatasetName
 ## Citation
 ```
 @inproceedings{Chaudhuri2022XModalViT,
- author = {Abhra Chaudhuri, Massimiliano Mancini, Yanbei Chen, Zeynep Akata, Anjan Dutta},
+ author = {Abhra Chaudhuri and Massimiliano Mancini and Yanbei Chen and Zeynep Akata and Anjan Dutta},
  booktitle = {Proceedings of the British Machine Vision Conference (BMVC)},
  title = {Cross-Modal Fusion Distillation for Fine-Grained Sketch-Based Image Retrieval},
  year = {2022}
