@@ -1,6 +1,7 @@
 # Cross-Modal Fusion Distillation for Fine-Grained Sketch-Based Image Retrieval
 Official implementation of
-"[Cross-Modal Fusion Distillation for Fine-Grained Sketch-Based Image Retrieval](https://arxiv.org/abs/2210.10486)", BMVC 2022.
+"[Cross-Modal Fusion Distillation for Fine-Grained Sketch-Based Image Retrieval](https://bmvc2022.mpi-inf.mpg.de/0499.pdf)", BMVC 2022.\
+Additional Links: [arXiv](https://arxiv.org/abs/2210.10486) | [Video & Poster](https://bmvc2022.mpi-inf.mpg.de/499/)
 
 Our framework retains semantically relevant modality-specific features by learning a fused representation space,
 while bypassing the expensive cross-attention computation at test-time via cross-modal knowledge distillation.
